@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical Store Management - Dashboard</title>
+    <link rel="stylesheet" href="style6.css">
+</head>
+<body>
+    <div class="dashboard">
+        <nav class="sidebar">
+            <h2>Menu</h2>
+            <ul>
+                <li><a href="#sales">Sales</a></li>
+                <li><a href="#add-items">Add Items</a></li>
+                <li><a href="#payments">Payments</a></li>
+                <li><a href="#inventory">Inventory</a></li>
+                <li><a href="#reports">Reports</a></li>
+                <li><a href="login.html">Logout</a></li>
+            </ul>
+        </nav>
+        <main class="content">
+            <header>
+                <h1>Welcome to Medical Store Dashboard</h1>
+                <p>Manage your store efficiently.</p>
+            </header>
+            <section id="sales">
+                <h2>Sales Management</h2>
+                <p>Track daily sales here. (Add table for sales data in full app.)</p>
+                <!-- Example: In a real app, show a table of sales with JS fetch from backend -->
+            </section>
+            <section id="add-items">
+                <h2>Add Items</h2>
+                <form id="addItemForm">
+                    <input type="text" placeholder="Item Name (e.g., Aspirin)" required>
+                    <input type="number" placeholder="Price" required>
+                    <input type="number" placeholder="Quantity" required>
+                    <button type="submit">Add Item</button>
+                </form>
+            </section>
+            <section id="payments">
+                <h2>Payments</h2>
+                <p>Process payments and generate receipts. (Integrate payment gateway here.)</p>
+            </section>
+            <!-- Add more sections as needed -->
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
